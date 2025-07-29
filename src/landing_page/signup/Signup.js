@@ -32,7 +32,7 @@ function SignUp() {
         e.preventDefault();
         try{
             const {data}=await axios.post(
-            "http://localhost:3002/signup",{
+            "https://zerodha-backend-85id.onrender.com/signup",{
                 ...inputValue,
             },
             {withCredentials:true}                
