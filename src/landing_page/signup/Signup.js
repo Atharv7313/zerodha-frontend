@@ -41,7 +41,7 @@ function SignUp() {
             if(success){
                 handleSuccess(message);
                 setTimeout(() => {
-                    window.location.href = "http://localhost:3000";
+                    window.location.href = "https://zerodha-dashboard-liart.vercel.app";
                 }, 1000);
             }else{
                 handleError(message)
